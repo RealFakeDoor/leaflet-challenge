@@ -8,3 +8,26 @@ body,
 html {
   height: 100%;
 }
+
+.info.legend {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px; /* Adjust width as needed */
+}
+
+.legend-row {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.legend-row i {
+  width: 20px; /* Adjust width of color swatch */
+  height: 20px; /* Adjust height of color swatch */
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid #888; /* Optional border for color swatch */
+}
