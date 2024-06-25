@@ -30,22 +30,22 @@ Simply open the index.html file in your preferred web browser to view the map an
 
 ## Logic Overview
 	
-	**HTML (index.html)**
+**HTML (index.html)**
 	- Sets up the basic structure of the webpage.
 	- Includes external Leaflet CSS and JS files, as well as the D3.js library.
 	- Links to the custom CSS and JavaScript files.
 
-	**CSS (style.css)**
+**CSS (style.css)**
 	- Ensures that the map and webpage take up the full height of the browser window.
 	- Styles the map legend with a white background, padding, and rounded corners.
 	- Defines styles for the legend rows and colour swatches.
 
-	**JavaScript (logic.js)**
-	- Initializes the Leaflet map centered at a specific latitude and longitude, with a zoom level of 4.
+**JavaScript (logic.js)**
+	- Initializes the Leaflet map centred at a specific latitude and longitude, with a zoom level of 4.
 	- Adds an OpenStreetMap tile layer to the map.
 	- Defines depth ranges and their corresponding colours for the legend.
 	- Fetches earthquake data from the USGS API using D3.js.
-	- Processes the data to create circle markers on the map for each earthquake, with the circle's size and color 		 	   representing the earthquake's magnitude and depth.
+	- Processes the data to create circle markers on the map for each earthquake, with the circle's size and colour 		  representing the earthquake's magnitude and depth.
 	- Adds a legend to the map to explain the colour coding of earthquake depths.s
 	  Handles errors in data fetching gracefully.
 
